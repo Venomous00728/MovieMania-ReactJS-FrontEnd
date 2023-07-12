@@ -1,0 +1,58 @@
+.form__groupDark {
+  position: relative;
+}
+
+.form__fieldDark {
+  border: 1px solid #333333 !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #cccccc;
+  height: 40px;
+  padding: 0rem 15px;
+  background-color: #333333;
+}
+
+.form__fieldDark::placeholder {
+  color: transparent;
+}
+
+.form__fieldDark:placeholder-shown ~ .form__labelDark {
+  top: 10px;
+  border-right: none;
+  border-left: none;
+}
+
+.form__labelDark {
+  background-color: #333333;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  color: #cccccc;
+  display: block;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  pointer-events: none;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+  opacity: 0.5;
+}
+
+.form__fieldDark:focus {
+  border: 1px solid #cccccc !important;
+  outline: none;
+}
+
+.form__fieldDark:focus ~ .form__labelDark {
+  background-color: #333333;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  color: #cccccc;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+  opacity: 1;
+}

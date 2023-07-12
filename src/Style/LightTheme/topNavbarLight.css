@@ -1,0 +1,97 @@
+.topNavBarLight {
+  width: 80%;
+  height: 70pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25pt;
+  margin-right: 10pt;
+  border-radius: 4pt;
+  margin-top: 10pt;
+  padding: 10pt;
+  background-color: #f2f3f5;
+}
+.topBarContainerLight {
+  display: flex;
+  margin-top: 1rem;
+}
+.userBoxLight {
+  width: 15%;
+  height: 70pt;
+  background-color: #f2f3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4pt;
+  margin-top: 10pt;
+  margin-right: 1.8rem;
+  margin-left: 2.9rem;
+}
+.whishlistLight {
+  font-size: 22pt;
+  color: black;
+  cursor: default;
+}
+.badgeLight {
+  margin-left: 10pt;
+  margin-top: 17pt;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2pt;
+  padding: 1pt;
+  color: white;
+  cursor: default;
+}
+.navLinksLight {
+  color: black;
+}
+.navLinksLight:hover {
+  color: grey;
+}
+.logoutLight {
+  color: black;
+}
+.logoutLight:hover {
+  color: grey;
+}
+.profileImageLight {
+  width: 45pt;
+  height: 45pt;
+  border: 2pt solid black;
+  border-radius: 4pt;
+  object-fit: fill;
+  margin-right: 5pt;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+.profileBoxContinerLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconListLight {
+  height: 15rem;
+  width: 15rem;
+  top: 8rem;
+  right: 5rem;
+  background-color: #e1e4e7;
+  position: absolute;
+  z-index: 2;
+  border-radius: 4pt;
+  border: 2pt solid black;
+}
+.iconsLight {
+  margin: 0.5rem;
+  border-color: black;
+  transition: 0.2s;
+}
+
+.iconsLight:hover {
+  transform: scale(1.1);
+}
+
+.inputImageClickBoxLight {
+  width: 4.7rem;
+}

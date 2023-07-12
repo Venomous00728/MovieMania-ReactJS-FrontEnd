@@ -1,0 +1,29 @@
+.mainTableLight {
+  border: 0pt;
+  border-radius: 4pt;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f2f3f5;
+  margin-bottom: 1rem;
+}
+.headerLight {
+  border-top: 2px solid #f2f3f5;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 2pt;
+  background-color: #f2f3f5;
+  color: black;
+  height: 4rem;
+}
+.bodyLight {
+  border-top: 2px solid #f2f3f5;
+  background-color: #f2f3f5;
+  color: black;
+  height: 4rem;
+}
+.linkedMoviesLight {
+  color: black;
+}
+.linkedMoviesLight:hover {
+  text-decoration: none;
+  color: black;
+}

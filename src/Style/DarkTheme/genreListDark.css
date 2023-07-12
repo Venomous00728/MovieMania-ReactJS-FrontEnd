@@ -1,0 +1,34 @@
+.listContainerDark {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 4pt;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+.itemContainerDark {
+  position: relative;
+  display: block;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.myActiveDark {
+  z-index: 2;
+  color: #333333;
+  background-color: #cccccc;
+  border-color: #43285c;
+}
+.myInActiveDark {
+  background-color: #333333;
+  color: #cccccc;
+}
+.myInActiveDark:hover {
+  background-color: #cccccc;
+  color: #43285c;
+}

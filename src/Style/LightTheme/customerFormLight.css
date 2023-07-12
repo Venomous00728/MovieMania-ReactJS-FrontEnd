@@ -1,0 +1,73 @@
+.containerLight input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  border-radius: 5px;
+  width: 5rem;
+}
+
+.containerLight {
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  border-radius: 5px;
+  width: 3rem;
+}
+
+/* Create a custom checkbox */
+.checkmarkLight {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #f2f3f5;
+  border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerLight input:checked ~ .checkmarkLight {
+  box-shadow: 3px 3px 0px #f2f3f5;
+  transition: all 0.2s;
+  opacity: 1;
+  background-image: linear-gradient(45deg, #f2f3f5 0%, black 100%);
+}
+
+.containerLight input ~ .checkmarkLight {
+  transition: all 0.2s;
+  opacity: 1;
+  box-shadow: 1px 1px 0px black;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkLight:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+/* Show the checkmark when checked */
+.containerLight input:checked ~ .checkmarkLight:after {
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+/* Style the checkmark/indicator */
+.containerLight .checkmarkLight:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+.isGoldLight {
+  color: black;
+  font-size: 1.2rem;
+  width: 45rem;
+}

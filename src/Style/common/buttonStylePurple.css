@@ -1,0 +1,25 @@
+.submitBtnPurple {
+  position: relative;
+  display: inline-block;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #43285c;
+  background: #b182dc;
+  cursor: pointer;
+  transition: ease-out 0.2s;
+  border: 2px solid #b182dc;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725ac1;
+}
+
+.submitBtnPurple:hover {
+  color: #b182dc;
+  box-shadow: inset 0 -100px 0 0 #43285c;
+}
+
+.submitBtnPurple:active {
+  transform: scale(0.9);
+}

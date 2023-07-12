@@ -1,0 +1,91 @@
+/* Hide the default checkbox */
+.containerPurple input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  border-radius: 5px;
+  width: 5rem;
+}
+
+.containerPurple {
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  border-radius: 5px;
+  width: 3rem;
+}
+
+/* Create a custom checkbox */
+.checkmarkPurple {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #43285c;
+  border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerPurple input:checked ~ .checkmarkPurple {
+  box-shadow: 3px 3px 0px #b182dc;
+  transition: all 0.2s;
+  opacity: 1;
+  background-image: linear-gradient(
+    45deg,
+    rgb(100, 61, 219) 0%,
+    rgb(217, 21, 239) 100%
+  );
+}
+
+.containerPurple input ~ .checkmarkPurple {
+  transition: all 0.2s;
+  opacity: 1;
+  box-shadow: 1px 1px 0px #b182dc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkPurple:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+/* Show the checkmark when checked */
+.containerPurple input:checked ~ .checkmarkPurple:after {
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+/* Style the checkmark/indicator */
+.containerPurple .checkmarkPurple:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+.formLabel {
+  color: #b182dc;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.isGoldPurple {
+  color: #b182dc;
+  font-size: 1.2rem;
+  width: 45rem;
+}
+
+.checkboxContainer {
+  margin-top: 1rem;
+  display: flex;
+  width: 12rem;
+}

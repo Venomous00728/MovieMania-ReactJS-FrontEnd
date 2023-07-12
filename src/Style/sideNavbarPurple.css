@@ -1,0 +1,65 @@
+.boxContainerPurple {
+  display: flex;
+  flex-direction: column;
+  background-color: #43285c;
+  width: 200pt;
+  align-items: center;
+  padding-top: 1.6rem;
+}
+.logoPurple {
+  color: #b182dc;
+  font-size: 22pt;
+  border: 1pt solid #43285c;
+  padding: 0.2rem;
+  transition: 0.5s;
+}
+.logoPurple:hover {
+  text-decoration: none;
+  color: #8b6ba9;
+}
+.textPurple {
+  color: #b182dc;
+  font-size: 18pt;
+  text-align: left;
+  border: 1pt solid #43285c;
+  transition: 0.2s;
+  padding: 0.5rem;
+}
+.textPurple:hover {
+  text-decoration: none;
+  color: #b182dc;
+  border: 1pt solid #b182dc;
+  border-radius: 8pt;
+}
+.textPurple:focus {
+  background-color: #b182dc;
+  color: #43285c;
+  border-radius: 8pt;
+}
+.tabsPurple {
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+.textContainerPurple {
+  border: 1pt solid #43285c;
+  margin-top: 1rem;
+  width: 10rem;
+}
+.logoContainerPurple {
+  display: flex;
+  align-items: center;
+}
+.imgStylePurple {
+  width: 50pt;
+  height: 50pt;
+  object-fit: contain;
+}
+.iconStylePurple {
+  width: 25pt;
+  height: 25pt;
+  margin-right: 0.5rem;
+}
+.logoImagePurple {
+  object-fit: contain;
+  width: 90pt;
+}

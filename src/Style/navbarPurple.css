@@ -1,0 +1,15 @@
+.mainContainerPurple {
+  background-color: #4e3565;
+  height: 100%;
+  display: flex;
+}
+.switchPurple {
+  width: 100%;
+  height: 370pt;
+}
+.webContainerPurple {
+  width: 100%;
+}
+.topBarContainerPurple {
+  width: 100%;
+}

@@ -1,0 +1,97 @@
+.topNavBarDark {
+  width: 80%;
+  height: 70pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25pt;
+  margin-right: 10pt;
+  border-radius: 4pt;
+  margin-top: 10pt;
+  padding: 10pt;
+  background-color: #333333;
+}
+.topBarContainerDark {
+  display: flex;
+  margin-top: 1rem;
+}
+.userBoxDark {
+  width: 15%;
+  height: 70pt;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4pt;
+  margin-top: 10pt;
+  margin-right: 1.8rem;
+  margin-left: 2.9rem;
+}
+.whishlistDark {
+  font-size: 22pt;
+  color: #cccccc;
+  cursor: default;
+}
+.badgeDark {
+  margin-left: 10pt;
+  margin-top: 17pt;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2pt;
+  padding: 1pt;
+  color: #333333;
+  cursor: default;
+}
+.navLinksDark {
+  color: #cccccc;
+}
+.navLinksDark:hover {
+  color: #fff;
+}
+.logoutDark {
+  color: #cccccc;
+}
+.logoutDark:hover {
+  color: #fff;
+}
+.profileImageDark {
+  width: 45pt;
+  height: 45pt;
+  border: 2pt solid #cccccc;
+  border-radius: 4pt;
+  object-fit: fill;
+  margin-right: 5pt;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+.profileBoxContinerDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconListDark {
+  height: 15rem;
+  width: 15rem;
+  top: 8rem;
+  right: 5rem;
+  background-color: #333333;
+  position: absolute;
+  z-index: 2;
+  border-radius: 4pt;
+  border: 2pt solid #cccccc;
+}
+.iconsDark {
+  margin: 0.5rem;
+  border-color: #cccccc;
+  transition: 0.2s;
+}
+
+.iconsDark:hover {
+  transform: scale(1.1);
+}
+
+.inputImageClickBoxDark {
+  width: 4.7rem;
+}

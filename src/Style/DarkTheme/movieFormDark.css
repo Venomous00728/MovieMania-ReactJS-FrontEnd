@@ -1,0 +1,18 @@
+.movieFormHeadingDark {
+  color: #cccccc;
+}
+.formInputDark {
+  color: #cccccc;
+  background-color: #333333;
+  width: 50%;
+  border: none;
+  border-radius: 4pt;
+  height: 2.5rem;
+  outline: none;
+  padding: 6pt;
+}
+.labelDark {
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

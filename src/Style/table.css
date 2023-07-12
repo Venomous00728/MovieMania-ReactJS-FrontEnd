@@ -1,0 +1,66 @@
+.headerPurple {
+  border-top: 2px solid #43285c;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 2pt;
+  background-color: #43285c;
+  color: #b182dc;
+  height: 4rem;
+}
+.bodyPurple {
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
+  background-color: #43285c;
+  color: #b182dc;
+  height: 4rem;
+}
+
+.mainTablePurple {
+  border: 0pt;
+  border-radius: 8pt;
+  overflow: hidden;
+  width: 100%;
+  background-color: #43285c;
+  margin-bottom: 1rem;
+}
+.linkedMoviesPurple {
+  color: #b182dc;
+}
+.linkedMoviesPurple:hover {
+  text-decoration: none;
+  color: #805ca2;
+}
+.unlinkedMoveis {
+  cursor: default;
+}
+.deleteButton {
+  background-color: #b182dc;
+  color: #43285c;
+  border-radius: 8pt;
+  border: 1pt solid #b182dc;
+  height: 2.2rem;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  background-color: #a276cc;
+}
+.deleteRow {
+  position: absolute;
+  left: 3rem;
+}
+.linkButton:hover {
+  text-decoration: none;
+}
+.tableDataImage {
+  height: 50pt;
+  object-fit: contain;
+}
+
+.tableData {
+  cursor: default;
+  text-align: center;
+}
+
+.cellContent {
+  display: flex;
+  align-items: center;
+  height: 50pt;
+}

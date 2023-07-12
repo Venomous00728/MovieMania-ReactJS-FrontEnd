@@ -1,0 +1,15 @@
+.mainContainerLight {
+  background-color: #ffff;
+  height: 100%;
+  display: flex;
+}
+.switchLight {
+  width: 100%;
+  height: 370pt;
+}
+.webContainerLight {
+  width: 100%;
+}
+.topBarContainerLight {
+  width: 100%;
+}

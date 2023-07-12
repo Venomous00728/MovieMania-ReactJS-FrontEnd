@@ -1,0 +1,15 @@
+.mainContainerDark {
+  background-color: #1e1e1e;
+  height: 100%;
+  display: flex;
+}
+.switchDark {
+  width: 100%;
+  height: 370pt;
+}
+.webContainerDark {
+  width: 100%;
+}
+.topBarContainerDark {
+  width: 100%;
+}

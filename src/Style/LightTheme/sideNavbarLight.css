@@ -1,0 +1,65 @@
+.boxContainerLight {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f3f5;
+  width: 200pt;
+  align-items: center;
+  padding-top: 1.6rem;
+}
+.logoLight {
+  color: black;
+  font-size: 22pt;
+  border: 1pt solid #f2f3f5;
+  padding: 0.2rem;
+  transition: 0.5s;
+}
+.logoLight:hover {
+  text-decoration: none;
+  color: grey;
+}
+.textLight {
+  color: black;
+  font-size: 18pt;
+  text-align: left;
+  border: 1pt solid #f2f3f5;
+  transition: 0.2s;
+  padding: 0.5rem;
+}
+.textLight:hover {
+  text-decoration: none;
+  color: black;
+  border: 1pt solid black;
+  border-radius: 4pt;
+}
+.textLight:focus {
+  background-color: black;
+  color: white;
+  border-radius: 4pt;
+}
+.tabsLight {
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+.textContainerLight {
+  border: 1pt solid #f2f3f5;
+  margin-top: 1rem;
+  width: 10rem;
+}
+.logoContainerLight {
+  display: flex;
+  align-items: center;
+}
+.imgStyleLight {
+  width: 50pt;
+  height: 50pt;
+  object-fit: contain;
+}
+.iconStyleLight {
+  width: 25pt;
+  height: 25pt;
+  margin-right: 0.5rem;
+}
+.logoImageLight {
+  object-fit: contain;
+  width: 90pt;
+}

@@ -1,0 +1,56 @@
+.form__groupPurple {
+  position: relative;
+}
+
+.form__fieldPurple {
+  border: 1px solid #43285c !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #b182dc;
+  height: 40px;
+  padding: 0rem 15px;
+  background-color: #43285c;
+}
+
+.form__fieldPurple::placeholder {
+  color: transparent;
+}
+
+.form__fieldPurple:placeholder-shown ~ .form__labelPurple {
+  top: 10px;
+  border-right: none;
+  border-left: none;
+}
+
+.form__labelPurple {
+  background-color: #43285c;
+  border-left: 1px solid #8b759f;
+  border-right: 1px solid #8b759f;
+  color: #8b759f;
+  display: block;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  pointer-events: none;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+
+.form__fieldPurple:focus {
+  border: 1px solid #b182dc !important;
+  outline: none;
+}
+
+.form__fieldPurple:focus ~ .form__labelPurple {
+  background-color: #43285c;
+  border-right: 1px solid #b182dc;
+  border-left: 1px solid #b182dc;
+  color: #b182dc;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}

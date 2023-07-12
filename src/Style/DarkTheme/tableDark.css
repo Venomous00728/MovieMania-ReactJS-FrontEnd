@@ -1,0 +1,29 @@
+.mainTableDark {
+  border: 0pt;
+  border-radius: 4pt;
+  overflow: hidden;
+  width: 100%;
+  background-color: #333333;
+  margin-bottom: 1rem;
+}
+.headerDark {
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 2pt;
+  background-color: #333333;
+  color: #cccccc;
+  height: 4rem;
+}
+.bodyDark {
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
+  background-color: #333333;
+  color: #cccccc;
+  height: 4rem;
+}
+.linkedMoviesDark {
+  color: #cccccc;
+}
+.linkedMoviesDark:hover {
+  text-decoration: none;
+  color: #ffff;
+}

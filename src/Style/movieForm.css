@@ -1,0 +1,40 @@
+.movieFormHeadingPurple {
+  color: #b182dc;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.formInputPurple {
+  color: #b182dc;
+  background-color: #43285c;
+  width: 50%;
+  border: none;
+  border-radius: 4pt;
+  height: 2.5rem;
+  outline: none;
+  padding: 6pt;
+}
+.formInputPurple:focus {
+  border: 2pt solid #b182dc;
+}
+.formButton {
+  background-color: #b182dc;
+  color: #43285c;
+  border-radius: 8pt;
+  width: 5rem;
+  height: 2.5rem;
+}
+.formSelect {
+  background-color: #43285c;
+}
+.labelPurple {
+  color: #b182dc;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.heading {
+  color: #b182dc;
+  margin-top: 2.2rem;
+  margin-bottom: 1.5rem;
+}

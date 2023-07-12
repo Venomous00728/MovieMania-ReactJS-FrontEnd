@@ -1,0 +1,65 @@
+.boxContainerDark {
+  display: flex;
+  flex-direction: column;
+  background-color: #252526;
+  width: 200pt;
+  align-items: center;
+  padding-top: 1.6rem;
+}
+.logoDark {
+  color: #cccccc;
+  font-size: 22pt;
+  border: 1pt solid #252526;
+  padding: 0.2rem;
+  transition: 0.5s;
+}
+.logoDark:hover {
+  text-decoration: none;
+  color: white;
+}
+.textDark {
+  color: #cccccc;
+  font-size: 18pt;
+  text-align: left;
+  border: 1pt solid #252526;
+  transition: 0.2s;
+  padding: 0.5rem;
+}
+.textDark:hover {
+  text-decoration: none;
+  color: #ffff;
+  border: 1pt solid #cccccc;
+  border-radius: 4pt;
+}
+.textDark:focus {
+  background-color: #cccccc;
+  color: #252526;
+  border-radius: 4pt;
+}
+.tabsDark {
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+.textContainerDark {
+  border: 1pt solid #252526;
+  margin-top: 1rem;
+  width: 10rem;
+}
+.logoContainerDark {
+  display: flex;
+  align-items: center;
+}
+.imgStyleDark {
+  width: 50pt;
+  height: 50pt;
+  object-fit: contain;
+}
+.iconStyleDark {
+  width: 25pt;
+  height: 25pt;
+  margin-right: 0.5rem;
+}
+.logoImageDark {
+  object-fit: contain;
+  width: 90pt;
+}
