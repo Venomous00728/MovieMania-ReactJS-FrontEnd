@@ -1,3 +1,17 @@
+# Visual Representation
+
+Movie Mania Dark Theme
+
+![MovieManiaHomeDark](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/dff70420-b01b-4f3d-a9e2-cb0d54edb0c0)
+
+Movie Mania Light Theme
+
+![MovieManiaLight](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/e43db3d0-f7ae-4e85-baf4-3cd706709d27)
+
+Movie Mania Purple Theme
+
+![MovieManiaPurple](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/785f5547-53fe-4d68-ad69-9f1f7d616c7b)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -61,8 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
+### Deployment!
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
