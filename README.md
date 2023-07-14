@@ -1,14 +1,14 @@
 # Visual Representation
 
-Movie Mania Dark Theme
+## Movie Mania Dark Theme
 
 ![MovieManiaHomeDark](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/dff70420-b01b-4f3d-a9e2-cb0d54edb0c0)
 
-Movie Mania Light Theme
+## Movie Mania Light Theme
 
 ![MovieManiaLight](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/e43db3d0-f7ae-4e85-baf4-3cd706709d27)
 
-Movie Mania Purple Theme
+## Movie Mania Purple Theme
 
 ![MovieManiaPurple](https://github.com/Venomous00728/moviemania-front-end/assets/111381054/785f5547-53fe-4d68-ad69-9f1f7d616c7b)
 
